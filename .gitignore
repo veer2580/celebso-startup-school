@@ -10,6 +10,9 @@
 !.yarn/releases
 !.yarn/versions
 
+# video
+celebso-startup-school/out/video/video.mp4
+
 # testing
 /coverage
 
