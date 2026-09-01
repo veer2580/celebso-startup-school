@@ -20,33 +20,25 @@ export default function Hero() {
       </div>
 
   
-     <div className="absolute inset-0 w-full h-full flex items-center justify-center opacity-50 pointer-events-none">
+     <div className="absolute inset-0 w-full h-full flex items-center justify-center pointer-events-none">
   <img
     src="/assest/back.png"
     alt="Video Camera"
     className="w-full h-full object-cover"
   />
-</div>
+ </div>
+
+      <div className="absolute inset-0 bg-black/35 pointer-events-none" />
 
     
-<<<<<<< HEAD
       <div className="relative z-10 h-full px-4 sm:px-6 flex flex-col justify-center items-center text-center">
 
-        <h1 className="text-4xl sm:text-5xl md:text-[5vw] text-[#312e2e] font-bold text-center md:text-left leading-tight">
-=======
-      <div className="relative z-10 h-full px-6 flex flex-col justify-center items-center text-center">
-
-        <h1 className="text-5xl md:text-[5vw] text-[#312e2e] font-bold text-center md:text-left">
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
+        <h1 className="text-4xl sm:text-5xl md:text-[5vw] text-white font-bold text-center leading-tight drop-shadow-[0_4px_12px_rgba(0,0,0,0.9)]">
           CELEBSO STARTUP SCHOOL
         </h1>
 
     
-<<<<<<< HEAD
-        <p className="mt-2 flex flex-wrap items-center justify-center gap-3 text-[4.5vw] sm:text-[3.8vw] md:text-[1vw] text-[#4a4747] font-bold leading-tight uppercase bg-[#fcb900] px-4 sm:px-6 py-4 max-w-4xl mx-auto">
-=======
-        <p className="mt-2 flex flex-wrap items-center justify-center gap-4 text-[3.5vw] md:text-[1vw] text-[#4a4747] font-bold leading-none uppercase bg-[#fcb900] px-6 py-4">
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
+        <p className="mt-3 flex flex-wrap items-center justify-center gap-3 text-[4.5vw] sm:text-[3.8vw] md:text-[1vw] text-[#211f1f] font-bold leading-tight uppercase bg-[#fcb900] px-4 sm:px-6 py-4 max-w-4xl mx-auto shadow-[0_6px_24px_rgba(0,0,0,0.45)]">
 
           <span>Startup Internships</span>
 

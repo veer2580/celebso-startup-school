@@ -139,13 +139,7 @@ export default function TeaserSection() {
           muted
           loop
           playsInline
-<<<<<<< HEAD
           className="w-full h-[220px] sm:h-[280px] md:h-[420px] object-cover group-hover:scale-105 transition duration-500"
-          loop
-          playsInline
-          className="w-full h-[220px] sm:h-[280px] md:h-[420px] object-cover group-hover:scale-105 transition duration-500"
-=======
-          className="w-full h-[420px] object-cover group-hover:scale-105 transition duration-500"
         />
 
       </div>
@@ -159,8 +153,7 @@ export default function TeaserSection() {
           muted
           loop
           playsInline
-          className="w-full h-[420px] object-cover group-hover:scale-105 transition duration-500"
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
+          className="w-full h-[220px] sm:h-[280px] md:h-[420px] object-cover group-hover:scale-105 transition duration-500"
         />
 
       </div>
@@ -174,11 +167,7 @@ export default function TeaserSection() {
           muted
           loop
           playsInline
-<<<<<<< HEAD
           className="w-full h-[220px] sm:h-[280px] md:h-[420px] object-cover group-hover:scale-105 transition duration-500"
-=======
-          className="w-full h-[420px] object-cover group-hover:scale-105 transition duration-500"
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
         />
 
       </div>
@@ -245,11 +234,7 @@ export default function TeaserSection() {
 /* CARD */
 function Card({ title, children }) {
   return (
-<<<<<<< HEAD
     <div className="bg-[#2c5c46]/90 backdrop-blur-lg rounded-xl p-6 w-full max-w-[220px]">
-=======
-    <div className="bg-[#2c5c46]/90 backdrop-blur-lg rounded-xl p-6 w-[220px]">
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
       <h4 className="text-[#9ee7c6] font-semibold mb-2">{title}</h4>
       <p className="text-sm text-white/80">{children}</p>
     </div>

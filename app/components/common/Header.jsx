@@ -8,29 +8,17 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-<<<<<<< HEAD
     <header className="fixed top-6 inset-x-0 z-50 mx-auto w-full max-w-[1200px] px-4">
-=======
-    <header className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-full max-w-[1200px] px-4">
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
       
       <div className="backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl shadow-[0_8px_40px_rgba(0,0,0,0.4)] text-white">
 
         {/* TOP BAR */}
-<<<<<<< HEAD
         <div className="relative flex items-center justify-between px-6 py-4">
-=======
-        <div className="flex items-center justify-between px-6 py-4">
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
 
           {/* MENU BUTTON */}
           <button
             onClick={() => setOpen(!open)}
-<<<<<<< HEAD
             className="flex items-center gap-3 text-sm tracking-wide z-50 flex-shrink-0"
-=======
-            className="flex items-center gap-3 text-sm tracking-wide z-50"
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
           >
             <div className="relative w-6 h-6 flex items-center justify-center">
               <motion.span
@@ -47,11 +35,7 @@ export default function Header() {
           </button>
 
           {/* LOGO */}
-<<<<<<< HEAD
           <Link href="/" className="hidden md:block absolute left-1/2 -translate-x-1/2">
-=======
-          <Link href="/" className="absolute left-1/2 -translate-x-1/2">
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
             <img
               src="/assest/celebso.webp"
               alt="Celebso"
@@ -59,7 +43,6 @@ export default function Header() {
             />
           </Link>
 
-<<<<<<< HEAD
           <Link href="/" className="absolute left-1/2 -translate-x-1/2 md:hidden">
             <img
               src="/assest/celebso.webp"
@@ -72,12 +55,6 @@ export default function Header() {
           <Link
             href="/enquiry"
             className="hidden md:inline-flex bg-[#fcb900] text-black px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#e0a700] transition"
-=======
-          {/* CTA BUTTON */}
-          <Link
-            href="/enquiry"
-            className="bg-[#fcb900] text-black px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#e0a700] transition"
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
           >
             Apply Now
           </Link>
@@ -100,10 +77,7 @@ export default function Header() {
                   { name: "Programs", href: "/programs" },
                   { name: "About", href: "/about" },
                   { name: "Enquiry", href: "/enquiry" },
-<<<<<<< HEAD
                   { name: "Apply Now", href: "/enquiry" },
-=======
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
                   { name: "Login", href: "/login" },
                 ].map((item, i) => (
                   <motion.div

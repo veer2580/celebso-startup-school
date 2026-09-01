@@ -16,17 +16,10 @@ export default function MagazineLayout() {
         </div>
 
         {/* GRID */}
-<<<<<<< HEAD
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6 auto-rows-auto md:auto-rows-[120px]">
 
           {/* BIG IMAGE */}
           <div className="col-span-1 md:col-span-6 md:row-span-4 overflow-hidden rounded-xl min-h-[240px]">
-=======
-        <div className="grid grid-cols-12 gap-6 auto-rows-[120px]">
-
-          {/* BIG IMAGE */}
-          <div className="col-span-6 row-span-4 overflow-hidden rounded-xl">
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
             <img
                src="/assest/image09.jpeg"
               className="w-full h-full object-cover"
@@ -35,11 +28,7 @@ export default function MagazineLayout() {
           </div>
 
           {/* TEXT BLOCK */}
-<<<<<<< HEAD
           <div className="col-span-1 md:col-span-3 md:row-span-2 bg-[#0f172a] p-6 rounded-xl flex flex-col justify-between border border-[#1e293b]">
-=======
-          <div className="col-span-3 row-span-2 bg-[#0f172a] p-6 rounded-xl flex flex-col justify-between border border-[#1e293b]">
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
 
             <h3 className="text-xl font-semibold">
               STARTUP BUILDER WORKSHOP
@@ -53,11 +42,7 @@ export default function MagazineLayout() {
           </div>
 
           {/* SMALL IMAGE */}
-<<<<<<< HEAD
           <div className="col-span-1 md:col-span-3 md:row-span-3 overflow-hidden rounded-xl min-h-[220px]">
-=======
-          <div className="col-span-3 row-span-3 overflow-hidden rounded-xl">
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
             <img
               src="/assest/image01.jpeg"
               className="w-full h-full object-cover"
@@ -66,11 +51,7 @@ export default function MagazineLayout() {
           </div>
 
           {/* LONG TEXT */}
-<<<<<<< HEAD
           <div className="col-span-1 md:col-span-4 md:row-span-2 bg-[#0f172a] p-6 rounded-xl border border-[#1e293b]">
-=======
-          <div className="col-span-4 row-span-2 bg-[#0f172a] p-6 rounded-xl border border-[#1e293b]">
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
 
             <h2 className="text-3xl font-bold text-[#38bdf8]">
               INNOVATION LAB
@@ -84,11 +65,7 @@ export default function MagazineLayout() {
           </div>
 
           {/* VERTICAL IMAGE */}
-<<<<<<< HEAD
           <div className="col-span-1 md:col-span-2 md:row-span-4 overflow-hidden rounded-xl min-h-[240px]">
-=======
-          <div className="col-span-2 row-span-4 overflow-hidden rounded-xl">
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
             <img
               src="/assest/startuppitch.jpeg"
               className="w-full h-full object-contain"
@@ -97,11 +74,7 @@ export default function MagazineLayout() {
           </div>
 
           {/* ARTICLE */}
-<<<<<<< HEAD
           <div className="col-span-1 md:col-span-3 md:row-span-3 bg-[#0f172a] p-6 rounded-xl border border-[#1e293b]">
-=======
-          <div className="col-span-3 row-span-3 bg-[#0f172a] p-6 rounded-xl border border-[#1e293b]">
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
 
             <h3 className="text-lg font-semibold">
               THE FOUNDER JOURNEY
@@ -115,11 +88,7 @@ export default function MagazineLayout() {
           </div>
 
           {/* WIDE IMAGE */}
-<<<<<<< HEAD
           <div className="col-span-1 md:col-span-6 md:row-span-3 overflow-hidden rounded-xl min-h-[240px]">
-=======
-          <div className="col-span-6 row-span-3 overflow-hidden rounded-xl">
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
             <img
               src="/assest/startupevent01.jpeg"
               className="w-full h-full object-cover"
@@ -128,11 +97,7 @@ export default function MagazineLayout() {
           </div>
 
           {/* QUOTE */}
-<<<<<<< HEAD
           <div className="col-span-1 md:col-span-3 md:row-span-2 bg-[#0f172a] p-6 rounded-xl border border-[#1e293b] flex items-center">
-=======
-          <div className="col-span-3 row-span-2 bg-[#0f172a] p-6 rounded-xl border border-[#1e293b] flex items-center">
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
 
             <p className="text-xl font-light italic text-[#e2e8f0]">
               “Celebso Startup School turns ambitious ideas into real companies

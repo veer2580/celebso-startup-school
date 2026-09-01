@@ -38,11 +38,7 @@ export default function AboutHero() {
       <div className="absolute top-[-120px] right-[-100px] w-[500px] h-[500px] rounded-full bg-[#fcb900]/10 pointer-events-none" />
       <div className="absolute bottom-[-80px] left-[-80px] w-[350px] h-[350px] rounded-full bg-[#312e2e]/5 pointer-events-none" />
 
-<<<<<<< HEAD
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-20 grid grid-cols-1 md:grid-cols-2 gap-12 items-center w-full">
-=======
-      <div className="relative z-10 max-w-7xl mx-auto px-6 py-28 grid md:grid-cols-2 gap-16 items-center w-full">
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
 
         {/* ── LEFT: Text ── */}
         <div>
@@ -126,11 +122,7 @@ export default function AboutHero() {
               Our Impact
             </p>
 
-<<<<<<< HEAD
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-=======
-            <div className="grid grid-cols-2 gap-6">
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
               {[
                 { number: "500+", label: "Students Trained" },
                 { number: "12+", label: "Industries Served" },
@@ -158,11 +150,7 @@ export default function AboutHero() {
           </div>
 
           {/* 3 Venture Mini Cards Row */}
-<<<<<<< HEAD
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-=======
-          <div className="grid grid-cols-3 gap-3">
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
             {[
               {
                 title: "Tech Celebso",

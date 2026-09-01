@@ -11,7 +11,6 @@ export default function LatestReels() {
 
         <div className="relative max-w-7xl mx-auto">
 
-<<<<<<< HEAD
           <div className="flex flex-col lg:flex-row justify-between mb-16 gap-8">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight">
               Founder <span className="text-white/60">Moments</span>
@@ -22,18 +21,6 @@ export default function LatestReels() {
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 md:px-14">
-=======
-          <div className="flex flex-col lg:flex-row justify-between mb-20 gap-10">
-            <h2 className="text-4xl lg:text-5xl font-semibold">
-              Founder <span className="text-white/60">Moments</span>
-            </h2>
-
-            <p className="max-w-xl text-2xl text-white/70">
-              A glimpse into our workshops, founder journeys, startup events and the ideas shaping the next generation of innovators.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-10 md:px-14">
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
             <ReelCard video="/reels/reel5.mp4" handle="@dummyhandle" />
             <ReelCard video="/reels/reel4.mp4" handle="@dummyhandle" />
             <ReelCard video="/reels/reel6.mp4" handle="@dummyhandle" />
@@ -104,11 +91,7 @@ function ReelCard({ video, handle }) {
         muted
         loop
         playsInline
-<<<<<<< HEAD
         className="w-full h-[280px] sm:h-[340px] md:h-[450px] object-cover transition-transform duration-[1400ms] ease-out group-hover:scale-[1.05]"
-=======
-        className="w-full h-[450px] object-cover transition-transform duration-[1400ms] ease-out group-hover:scale-[1.05]"
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
       />
 
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />

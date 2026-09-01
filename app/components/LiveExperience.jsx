@@ -6,15 +6,9 @@ import Link from "next/link";
 
 export default function StartupHighlights() {
   return (
-<<<<<<< HEAD
     <section className="w-full bg-[#0b0f0e] py-24 px-4 sm:px-6">
 
       <div className="max-w-6xl mx-auto">
-=======
-    <section className="w-full bg-[#0b0f0e] py-24 px-6">
-
-      <div className="max-w-[1200px] mx-auto">
->>>>>>> 0be217fffdbc53df08aafea378640922401a30d1
 
         {/* ================= STATS ================= */}
 
