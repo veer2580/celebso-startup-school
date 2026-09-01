@@ -11,7 +11,7 @@
 !.yarn/versions
 
 # video
-celebso-startup-school/out/video/video.mp4
+/celebso-startup-school/out/video/video.mp4
 
 # testing
 /coverage
